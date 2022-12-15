@@ -1,0 +1,33 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {text-align: center;
+    padding-top: 150px;
+    font-size: 35pt;
+    margin-left: 100px;
+
+}
+
+
+
+#tuborg {
+    background-image: url(Images/Tuborg\ squash\ original.png); 
+    height: 100%; 
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-bottom: 10pt;
+    margin-top: 100pt;
+    transition: 1s;
+    
+}
+
+#tuborg:hover {
+    transform: scale(1.1);
+}
+
+

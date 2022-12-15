@@ -1,0 +1,47 @@
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flexcontainer {
+
+   display: flex;
+   column-gap: 150px;
+   justify-content: center;
+   margin-top: 150px;
+}
+
+
+
+#light {
+
+width: 400px;
+height: 500px;
+background-image: url(images/Tuborg\ squash\ light.png);
+background-repeat: no-repeat;
+margin-bottom: 250px;
+
+
+}
+
+#original {
+ 
+width: 400px;
+height: 500px;
+background-image: url(Images/Tuborg\ squash\ original.png);
+background-repeat: no-repeat;
+margin-top: 22px;
+
+
+}
+
+
+main h2 {
+    
+font-size: 22pt;
+margin-left: 160px;
+
+}
+

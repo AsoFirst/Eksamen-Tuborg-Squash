@@ -1,0 +1,44 @@
+
+
+header nav a{ 
+
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+a:hover {
+color:white;
+}
+
+
+body {
+background-image:url(images/Background.jpg);
+}
+
+
+
+.footercontainer {
+
+    text-align: center;
+    font-size: 15pt;
+    display: flex;
+    padding-left: 120pt;
+    padding-top: 30pt;
+   
+}
+
+#øl {margin-right: 5%;}
+
+
+#Socialemedier {
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
