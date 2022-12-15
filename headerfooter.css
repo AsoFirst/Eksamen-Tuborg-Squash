@@ -1,4 +1,8 @@
 
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header nav a{ 
 
@@ -13,7 +17,7 @@ header nav a{
 
 
 a:hover {
-color:lightskyblue
+color:whitesmoke
 }
 
 
@@ -26,10 +30,11 @@ background-image:url(images/Background.jpg);
 .footercontainer {
 
     text-align: center;
-    font-size: 15pt;
+    font-size: 13pt;
     display: flex;
-    padding-left: 120pt;
-    padding-top: 30pt;
+    padding-left: 140pt;
+    padding-top: 10pt;
+    background-color: lightsalmon
    
 }
 
