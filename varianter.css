@@ -19,8 +19,11 @@ height: 500px;
 background-image: url(images/Tuborg\ squash\ light.png);
 background-repeat: no-repeat;
 margin-bottom: 250px;
+transition: 1s;
+}
 
-
+#light:hover {
+    transform: scale(1.2);
 }
 
 #original {
@@ -30,8 +33,12 @@ height: 500px;
 background-image: url(Images/Tuborg\ squash\ original.png);
 background-repeat: no-repeat;
 margin-top: 22px;
+transition: 1s
+}
 
+#original:hover{ 
 
+    transform: scale(1.2);
 }
 
 
@@ -39,6 +46,18 @@ main h2 {
     
 font-size: 22pt;
 margin-left: 160px;
-
 }
 
+
+@media (max-width: 600px) {
+
+
+    .flexcontainer {
+       flex-wrap: wrap-reverse;
+    }
+    
+    #light{
+        margin-right: 85px ;
+    }
+
+}

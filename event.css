@@ -55,6 +55,7 @@ margin-top: 150px;
     margin: 30px;
     margin-top: 70px;
     background-image: url(images/Tuborg\ squash\ original.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -78,3 +79,24 @@ margin-top: 150px;
     color: aqua;
 
 }
+
+@media (max-width: 700px) {
+
+
+    .flexcontainer-3 {
+       flex-wrap: wrap;
+       margin-top: 50px;
+       margin-bottom: 1px;
+       
+    }
+
+
+    #kort3 {
+        margin-top: 195px;
+        margin-left: 70px;
+        height: 580px;
+    }
+    
+ 
+     }
+ 

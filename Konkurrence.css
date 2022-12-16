@@ -53,11 +53,19 @@ h3 {
    
 }
 
-#kort-image{
 
-    background-image: url(Images/Tuborg\ squash\ original.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
+
+@media (max-width: 600px) {
+
+    .flexcontainer-2 {
+        flex-wrap: wrap;
+        margin-top: 150px;
+        padding: 19px;
+    }
+
+
+    #kort2 {
+       margin-top: 55px;}
+
+    }
 

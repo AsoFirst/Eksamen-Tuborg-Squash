@@ -21,6 +21,7 @@ color:whitesmoke
 }
 
 
+
 body {
 background-image:url(images/Background.jpg);
 }
@@ -47,3 +48,22 @@ background-image:url(images/Background.jpg);
     margin-right: 15%;
 
 }
+
+
+@media (max-width: 600px) {
+
+    .footercontainer {
+        flex-direction: column;
+       
+        padding-left: 55px;
+    }
+    header nav {
+        justify-content: space-around;
+        margin-left: 35px;
+        text-align: center;
+    }
+    #img {
+        margin-left: 200px;
+    }
+}
+
