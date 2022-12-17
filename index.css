@@ -12,11 +12,11 @@ h1 {text-align: center;
 
 #tuborg img{
     
-    height: 100%; 
+   
     background-repeat: no-repeat;
     margin-left: 35%;
     margin-top: 20pt; 
-    margin-bottom: 20%;
+    padding-bottom: 42px;
     transition: 1s;
     
 }
@@ -31,7 +31,8 @@ h1 {text-align: center;
     position: sticky;
     font-weight: bold;
     font-size: 25pt;
-    display: none;
+    padding-left: 36%;
+    padding-bottom: 320px;
     
    
   }
@@ -71,15 +72,23 @@ h1 {text-align: center;
 
         margin-left: 1%;
         height: 70%;
+        padding-bottom: 50px;
         
     }
 
     .dropdown {
 
         display: block;
-        margin-bottom: 90%;
-        margin-left: 1%;
+        margin-bottom: 100%;
+        
+       
+        
     }
   
+    .dropdown-content 
+    {
+        display: block;
+        margin-right: 100%;
+    }
 
 }

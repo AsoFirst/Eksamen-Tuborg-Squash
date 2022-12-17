@@ -16,7 +16,7 @@
 
 width: 400px;
 height: 500px;
-background-image: url(images/Tuborgsquashlight.png);
+background-image: url(images/tuborgsquashlight.png);
 background-repeat: no-repeat;
 margin-bottom: 250px;
 transition: 1s;
@@ -30,7 +30,7 @@ transition: 1s;
  
 width: 400px;
 height: 500px;
-background-image: url(Images/Tuborgsquashoriginal.png);
+background-image: url(images/tuborgsquashoriginal.png);
 background-repeat: no-repeat;
 margin-top: 22px;
 transition: 1s
