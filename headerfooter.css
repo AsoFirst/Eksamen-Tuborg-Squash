@@ -13,6 +13,7 @@ header nav a{
     font-weight: bold;
     text-decoration: none;
     color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     
    
 }
@@ -32,12 +33,14 @@ background-image:url(images/Background.jpg);
 
 .footercontainer {
     
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 13pt;
     display: flex;
     padding-left: 140pt;
     padding-top: 10pt;
     background-color: lightcyan
+
     
    
 }
