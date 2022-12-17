@@ -10,20 +10,22 @@ h1 {text-align: center;
 
 
 
-#tuborg {
-    background-image: url(Images/Tuborg\ squash\ original.png); 
+#tuborg img{
+    
     height: 100%; 
     background-repeat: no-repeat;
-    transition: 1s;
     margin-left: 35%;
-    
-    margin-top: 20pt;
+    margin-top: 20pt; 
+    margin-bottom: 20%;
+    transition: 1s;
     
 }
 
-#tuborg:hover {
+#tuborg img:hover {
     transform: scale(1.2);
 }
+
+
 
 .dropdown {
     position: sticky;
@@ -65,9 +67,10 @@ h1 {text-align: center;
        margin-top: 20px;
     }
 
-    #tuborg{
+    #tuborg img{
 
         margin-left: 1%;
+        height: 70%;
         
     }
 
