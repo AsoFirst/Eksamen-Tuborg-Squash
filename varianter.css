@@ -49,15 +49,16 @@ margin-left: 160px;
 }
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 1243px) {
 
-
+   
     .flexcontainer {
        flex-wrap: wrap-reverse;
     }
     
     #light{
-        margin-right: 85px ;
+        width: 100%;
+        padding-right: 120%;
     }
 
 }
