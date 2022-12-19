@@ -6,8 +6,8 @@
 
 header nav a{ 
 
-    margin-left: 10px;
-    margin-right: 50px;
+   
+    margin: 13px;
     padding-left: 10%;
     font-size: 25pt;
     font-weight: bold;
@@ -19,8 +19,8 @@ header nav a{
 }
 
 
-a:hover {
-color:whitesmoke
+header nav a:hover {
+color:lightblue
 }
 
 
@@ -68,7 +68,7 @@ background-image:url(images/background.jpg);
 
     .footercontainer {
         flex-direction: column;
-        padding-left: 55px;
+        padding-left: 37px;
     }
     header nav {
         justify-content: space-around;
